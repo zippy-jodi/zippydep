@@ -59,7 +59,7 @@ export function Navbar() {
             <motion.img
               src="/logo.png"
               alt="Zippy"
-              className="h-10 w-auto"
+              className="h-12 w-auto"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             />
