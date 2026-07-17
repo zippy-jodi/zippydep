@@ -1,3 +1,4 @@
+import { Navbar } from '@/components/Navbar';
 import { Hero } from '@/components/sections/Hero';
 import { Ticker } from '@/components/sections/Ticker';
 import { Features } from '@/components/sections/Features';
@@ -11,14 +12,14 @@ import { Footer } from '@/components/sections/Footer';
 export default function Home() {
   return (
     <main className="min-h-screen w-full bg-background selection:bg-primary selection:text-white">
-      <Hero />
+      <Navbar />
+      <div id="about"><Hero /></div>
       <Ticker />
-      <Features />
-      <Tokenomics />
-      <HowToBuy />
-      <Roadmap />
-      <Community />
-      <FAQ />
+      <div id="tokenomics"><Tokenomics /></div>
+      <div id="how-to-buy"><HowToBuy /></div>
+      <div id="roadmap"><Roadmap /></div>
+      <div id="community"><Community /></div>
+      <div id="faq"><FAQ /></div>
       <Footer />
     </main>
   );
