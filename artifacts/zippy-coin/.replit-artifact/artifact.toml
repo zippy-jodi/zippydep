@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Zippy Coin"
+version = "1.0.0"
+id = "artifacts/zippy-coin"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25629
+
+[services.development]
+run = "pnpm --filter @workspace/zippy-coin run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/zippy-coin", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/zippy-coin/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25629"
+BASE_PATH = "/"
