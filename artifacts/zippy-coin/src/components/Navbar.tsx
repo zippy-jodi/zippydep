@@ -56,15 +56,13 @@ export function Navbar() {
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); setOpen(false); }}
             className="flex items-center gap-2 group"
           >
-            <motion.span
-              className="font-display font-black text-2xl text-primary relative"
+            <motion.img
+              src="/logo.png"
+              alt="Zippy"
+              className="h-10 w-auto"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-            >
-              <span className="relative z-10">ZIPPY</span>
-              <span className="absolute inset-0 bg-secondary translate-x-1 translate-y-1 -z-10" />
-            </motion.span>
-            <span className="font-mono text-xs font-bold text-foreground/60 hidden sm:block">$ZIPPY on Solana</span>
+            />
           </a>
 
           {/* Desktop Links */}
