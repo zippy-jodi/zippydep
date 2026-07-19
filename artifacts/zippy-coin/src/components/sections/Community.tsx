@@ -24,7 +24,7 @@ export function Community() {
         <div className="flex flex-col md:flex-row justify-center gap-6">
           
           <motion.a 
-            href="https://twitter.com/zippycoin" 
+            href="https://x.com/ZippyCoinMeme" 
             target="_blank" 
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05, rotate: 5 }}
