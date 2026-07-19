@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export function Footer() {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "TBA — Coming Soon 🔒";
+  const contractAddress = "3ryf1pKgJsoM7YQnoHcuHd66A5wNeHGiDGYXZ1zgpump";
 
   const handleCopy = () => {
     if (contractAddress.includes("Coming Soon")) return;
