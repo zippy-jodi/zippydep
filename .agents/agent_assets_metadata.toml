@@ -1,0 +1,14 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "ms4ivEzo5iI56_c_YSQYE"
+uri = "file://artifacts/zippy-coin/public/logo.png"
+type = "image"
+title = "Zippy Logo — dengan teks (Twitter header, Telegram, banner)"
+
+[[outputs]]
+id = "eqn59FQY45AweajWiqqUa"
+uri = "file://artifacts/zippy-coin/public/favicon.png"
+type = "image"
+title = "Zippy Icon — maskot saja (profile picture semua platform)"
