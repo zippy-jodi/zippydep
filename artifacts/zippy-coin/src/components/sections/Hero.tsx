@@ -82,7 +82,7 @@ export function Hero() {
           transition={{ delay: 0.4, duration: 0.5 }}
         >
           <button className="px-8 py-4 text-xl font-bold uppercase bg-primary text-primary-foreground neo-border neo-shadow hover:translate-x-1 hover:translate-y-1 hover:neo-shadow-sm transition-all">
-            Buy ZIPPY Now
+            Buy $Zippy on Pump.fun
           </button>
         </motion.div>
       </div>
