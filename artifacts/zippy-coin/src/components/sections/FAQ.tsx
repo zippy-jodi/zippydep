@@ -12,7 +12,11 @@ const faqs = [
   },
   {
     q: "Is there a presale?",
-    a: "No presales, no VC allocations, no BS. 100% fair launch for the community."
+    a: "No presales, no VC allocations, no BS. 100% fair launch on Pump.fun — everyone gets in at the same time."
+  },
+  {
+    q: "What's the tokenomics?",
+    a: "50% burned forever on launch, 20% liquidity, 15% marketing, 10% team locked, 5% community. Half the supply gone from day one — Zippy doesn't mess around."
   },
   {
     q: "How high can Zippy go?",
