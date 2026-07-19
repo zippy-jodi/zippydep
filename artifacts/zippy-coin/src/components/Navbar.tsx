@@ -92,8 +92,9 @@ export function Navbar() {
 
           {/* Desktop CTA */}
           <motion.a
-            href="#how-to-buy"
-            onClick={(e) => { e.preventDefault(); handleLinkClick('#how-to-buy'); }}
+            href="https://pump.fun/coin/3ryf1pKgJsoM7YQnoHcuHd66A5wNeHGiDGYXZ1zgpump"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:flex items-center gap-2 px-5 py-2 bg-primary text-primary-foreground font-bold text-sm uppercase border-2 border-foreground shadow-[3px_3px_0_0_hsl(260_50%_10%)] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] transition-all font-display"
             whileTap={{ scale: 0.97 }}
           >
@@ -169,15 +170,16 @@ export function Navbar() {
                 ))}
 
                 <motion.a
-                  href="#how-to-buy"
+                  href="https://pump.fun/coin/3ryf1pKgJsoM7YQnoHcuHd66A5wNeHGiDGYXZ1zgpump"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   data-testid="link-mobile-buy"
-                  onClick={(e) => { e.preventDefault(); handleLinkClick('#how-to-buy'); }}
                   className="mt-2 flex items-center justify-center gap-2 px-4 py-5 bg-primary text-primary-foreground font-display font-black text-2xl uppercase border-2 border-foreground shadow-[4px_4px_0_0_hsl(260_50%_10%)] hover:shadow-none hover:translate-x-1 hover:translate-y-1 transition-all"
                   initial={{ opacity: 0, y: 16 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.05 + navLinks.length * 0.055, type: 'spring', stiffness: 300, damping: 24 }}
                 >
-                  Buy ZIPPY Now
+                  Buy $Zippy on Pump.fun
                 </motion.a>
               </nav>
             </motion.div>

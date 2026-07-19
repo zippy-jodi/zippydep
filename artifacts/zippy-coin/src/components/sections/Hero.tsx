@@ -81,9 +81,14 @@ export function Hero() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          <button className="px-8 py-4 text-xl font-bold uppercase bg-primary text-primary-foreground neo-border neo-shadow hover:translate-x-1 hover:translate-y-1 hover:neo-shadow-sm transition-all">
+          <a
+            href="https://pump.fun/coin/3ryf1pKgJsoM7YQnoHcuHd66A5wNeHGiDGYXZ1zgpump"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-4 text-xl font-bold uppercase bg-primary text-primary-foreground neo-border neo-shadow hover:translate-x-1 hover:translate-y-1 hover:neo-shadow-sm transition-all inline-block"
+          >
             Buy $Zippy on Pump.fun
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>
