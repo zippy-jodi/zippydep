@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaTelegramPlane, FaTwitter, FaDiscord } from 'react-icons/fa';
+import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 
 export function Community() {
   return (
@@ -46,17 +46,6 @@ export function Community() {
             Twitter / X
           </motion.a>
 
-          <motion.a 
-            href="https://discord.gg/zippycoin" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.05, rotate: -3 }}
-            whileTap={{ scale: 0.95 }}
-            className="flex items-center justify-center gap-3 bg-[#5865F2] text-white py-5 px-8 text-2xl font-bold uppercase neo-border neo-shadow-lg hover:neo-shadow-sm transition-shadow"
-          >
-            <FaDiscord size={32} />
-            Discord
-          </motion.a>
         </div>
       </div>
     </section>
