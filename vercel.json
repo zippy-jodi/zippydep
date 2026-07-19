@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm --filter @workspace/zippy-coin run build:vercel",
+  "outputDirectory": "artifacts/zippy-coin/dist/public",
+  "installCommand": "pnpm install",
+  "framework": null
+}
