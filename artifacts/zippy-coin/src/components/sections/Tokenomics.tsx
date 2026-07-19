@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const tokenomicsData = [
-  { label: 'Liquidity Pool', value: 40, color: 'hsl(330 100% 55%)' }, // Primary
-  { label: 'Community Rewards', value: 30, color: 'hsl(60 100% 50%)' }, // Secondary
-  { label: 'Marketing', value: 15, color: 'hsl(180 100% 50%)' }, // Accent
-  { label: 'Team (locked)', value: 10, color: 'hsl(30 100% 90%)' }, // Muted
-  { label: 'Burn', value: 5, color: 'hsl(260 50% 10%)' }, // Foreground
+  { label: 'Liquidity', value: 50, color: 'hsl(330 100% 55%)' },
+  { label: 'Community', value: 20, color: 'hsl(60 100% 50%)' },
+  { label: 'Marketing', value: 15, color: 'hsl(180 100% 50%)' },
+  { label: 'Team Locked', value: 10, color: 'hsl(30 100% 90%)' },
+  { label: 'Burned Forever', value: 5, color: 'hsl(260 50% 10%)' },
 ];
 
 export function Tokenomics() {
