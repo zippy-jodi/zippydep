@@ -12,3 +12,9 @@ id = "eqn59FQY45AweajWiqqUa"
 uri = "file://artifacts/zippy-coin/public/favicon.png"
 type = "image"
 title = "Zippy Icon — maskot saja (profile picture semua platform)"
+
+[[outputs]]
+id = "e49Q_aS7Ne9elOQ2cbtMg"
+uri = "file://attached_assets/generated_images/zippy-twitter-banner.png"
+type = "image"
+title = "Zippy Twitter/X Banner (1500×500)"
