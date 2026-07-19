@@ -84,10 +84,6 @@ export function Hero() {
           <button className="px-8 py-4 text-xl font-bold uppercase bg-primary text-primary-foreground neo-border neo-shadow hover:translate-x-1 hover:translate-y-1 hover:neo-shadow-sm transition-all">
             Buy ZIPPY Now
           </button>
-          <button className="px-8 py-4 text-xl font-bold uppercase bg-card text-foreground neo-border neo-shadow hover:translate-x-1 hover:translate-y-1 hover:neo-shadow-sm transition-all flex items-center gap-2">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-            Chart
-          </button>
         </motion.div>
       </div>
     </section>
