@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const tokenomicsData = [
-  { label: 'Liquidity', value: 50, color: 'hsl(330 100% 55%)' },
-  { label: 'Community', value: 20, color: 'hsl(60 100% 50%)' },
-  { label: 'Marketing', value: 15, color: 'hsl(180 100% 50%)' },
-  { label: 'Team Locked', value: 10, color: 'hsl(30 100% 90%)' },
-  { label: 'Burned', value: 5, color: 'hsl(260 50% 10%)' },
+  { label: '🔥 Burned', value: 50, color: 'hsl(20 100% 50%)' },
+  { label: '💧 Liquidity', value: 20, color: 'hsl(330 100% 55%)' },
+  { label: '📢 Marketing', value: 15, color: 'hsl(180 100% 50%)' },
+  { label: '🔒 Team Locked', value: 10, color: 'hsl(30 100% 90%)' },
+  { label: '🎁 Community', value: 5, color: 'hsl(60 100% 50%)' },
 ];
 
 export function Tokenomics() {
