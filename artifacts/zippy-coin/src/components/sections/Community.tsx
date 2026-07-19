@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 
 export function Community() {
   return (
@@ -22,17 +22,6 @@ export function Community() {
         </motion.div>
 
         <div className="flex flex-col md:flex-row justify-center gap-6">
-          <motion.a 
-            href="https://t.me/zippycoin" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.05, rotate: -5 }}
-            whileTap={{ scale: 0.95 }}
-            className="flex items-center justify-center gap-3 bg-[#0088cc] text-white py-5 px-8 text-2xl font-bold uppercase neo-border neo-shadow-lg hover:neo-shadow-sm transition-shadow"
-          >
-            <FaTelegramPlane size={32} />
-            Telegram
-          </motion.a>
           
           <motion.a 
             href="https://twitter.com/zippycoin" 
