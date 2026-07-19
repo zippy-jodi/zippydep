@@ -16,12 +16,12 @@ export function Footer() {
     <footer className="bg-foreground text-background py-16 px-4 border-t-8 border-primary relative overflow-hidden">
       <div className="max-w-6xl mx-auto flex flex-col items-center text-center">
         
-        <motion.div
-          whileHover={{ scale: 1.1, rotate: 10 }}
-          className="text-6xl font-black uppercase text-secondary mb-8 drop-shadow-[4px_4px_0px_#FF0080]"
-        >
-          ZIPPY
-        </motion.div>
+        <motion.img
+          src="/logo.png"
+          alt="Zippy"
+          className="h-32 w-auto mb-8"
+          whileHover={{ scale: 1.1, rotate: 5 }}
+        />
 
         <div className="mb-12 w-full max-w-xl">
           <p className="font-bold uppercase text-xl mb-4 text-primary">Contract Address</p>
