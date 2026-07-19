@@ -16,14 +16,14 @@ const steps = [
   },
   {
     num: "03",
-    title: "Go to Raydium",
-    desc: "Head over to Raydium or Jupiter. Connect your wallet. Don't worry, it doesn't bite (much).",
+    title: "Go to Pump.fun",
+    desc: "Head over to pump.fun and search for $ZIPPY. Connect your wallet — it's easier than it looks.",
     color: "bg-card text-foreground"
   },
   {
     num: "04",
-    title: "Swap for ZIPPY",
-    desc: "Paste the $ZIPPY contract address, swap your SOL, and hold on for dear life.",
+    title: "Buy ZIPPY",
+    desc: "Hit that buy button, enter how much SOL you want to spend, and welcome to the chaos.",
     color: "bg-secondary text-foreground"
   }
 ];
