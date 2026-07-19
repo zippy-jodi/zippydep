@@ -6,7 +6,7 @@ const tokenomicsData = [
   { label: 'Community', value: 20, color: 'hsl(60 100% 50%)' },
   { label: 'Marketing', value: 15, color: 'hsl(180 100% 50%)' },
   { label: 'Team Locked', value: 10, color: 'hsl(30 100% 90%)' },
-  { label: 'Burned Forever', value: 5, color: 'hsl(260 50% 10%)' },
+  { label: 'Burned', value: 5, color: 'hsl(260 50% 10%)' },
 ];
 
 export function Tokenomics() {
